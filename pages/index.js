@@ -17,7 +17,7 @@ export default function Home() {
      text-white h-screen snap-y snap-mandatory 
      overflow-scroll z-0'>
 
-      <title>Rawan's portfolio</title>
+      <title>Rawan portfolio</title>
 
 
       <Header />
@@ -30,7 +30,9 @@ export default function Home() {
         <AboutMe />
       </section>
 
+      <section id='experince' className='snap-start' >
       <Experience />
+      </section>
 
       <section id='skills' className='snap-start' >
         <Skills />
