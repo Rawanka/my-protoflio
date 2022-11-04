@@ -7,12 +7,14 @@ import Intro from '../components/Intro'
 import Experience from '../components/Experience'
 import Skills from '../components/Skills'
 import AboutMe from '../components/AboutMe'
+import Projects from '../components/Projects'
+import Contact from '../components/Contact'
 
 export default function Home() {
 
   return (
     <div className='bg-[rgba(36,36,36)]
-     text-white h-screen snap-x snap-mandatory 
+     text-white h-screen snap-y snap-mandatory 
      overflow-scroll z-0'>
 
       <title>Rawan's portfolio</title>
@@ -24,7 +26,7 @@ export default function Home() {
         <Intro />
       </section>
 
-      <section id='aboutme' className=''>
+      <section id='aboutme' className='snap-center'>
         <AboutMe />
       </section>
 
@@ -34,8 +36,17 @@ export default function Home() {
         <Skills />
       </section>
 
-      {/* project */}
-      {/* contact Me */}
+      <section id='projects' className='snap-start'>
+        <Projects />
+      </section>
+
+      <section id='contact' className='snap-start' >
+        <Contact />
+      </section>
+      <Footer/>
     </div>
+
+
+    
   );
 }

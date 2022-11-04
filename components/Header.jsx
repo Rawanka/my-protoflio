@@ -98,7 +98,7 @@ export default function Header() {
             bgColor='transparent'
           />
           <p className=' uppercase hidden md:inline-flex 
-        text-sm text-gray-400'>get in touch</p>
+        text-sm text-gray-400 cursor-pointer'>get in touch</p>
         </motion.div>
       </div>
     </header>

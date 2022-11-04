@@ -11,6 +11,12 @@
            hover:border-[#6a38e9]/40
            hover:text-[#6a38e9]/100
     }
+    .contactInput{
+      @apply outline-none bg-slate-400/10 rounded-sm
+      border-b px-6 py-4 border-[#242424] text-gray-300
+      placeholder-[#9875ef] transition-all
+      focus:border-[#6a38e9]/40 hover:text-white
+    }
 }
 
 @layer utilities {
@@ -21,16 +27,16 @@
   
     .scrollbar::-webkit-scrollbar-track {
       border-radius: 100vh;
-      background: #f7f4ed;
+      background: #242424;
     }
   
     .scrollbar::-webkit-scrollbar-thumb {
-      background: #e0cbcb;
+      background: #6a38e9;
       border-radius: 100vh;
-      border: 3px solid #f6f7ed;
+      border: 3px solid #6a38e9;
     }
   
     .scrollbar::-webkit-scrollbar-thumb:hover {
-      background: #c0a0b9;
+      background: #6a38e9/40;
     }
   }
