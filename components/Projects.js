@@ -13,7 +13,7 @@ export default function Projects() {
          text-2xl'
             >Projects</h3>
             <div className=' w-full flex overflow-x-scroll
-             overflow-y-hidden sanp-x snap-mandatory z-20 scrollbar'>
+             overflow-y-hidden snap-x snap-mandatory z-20 scrollbar'>
                 {projects.map((project, i) => (
 
                     <div className='snap-start w-screen flex-shrink-0 flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-s'>
