@@ -7,7 +7,7 @@ export default function EducationCard({education,by}) {
 
     <article className='flex flex-col rounded-lg items-center
      space-y-7 flex-shrink-0 w-[300px] md:w-[600px] xl:w[900px]
-     snap-center snap-x bg-[#292929] p-8 hover:opacity-100
+     snap-center snap-x bg-[#292929] p-10 hover:opacity-100
       opacity-40 cursor-pointer transition-opacity overflow-hidden
        duration-200 '>
       {/* <motion.img

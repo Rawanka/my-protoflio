@@ -12,7 +12,7 @@ export default function AboutMe() {
                 <span className='text-md text-center space-y-4 md:text-left md:space-y-6 md:px-8'>
                     <p> 
                     My name is Rawan I graduated from Taibah university with a bachelor in business degree I always loved technology while getting 
-                    my degree I taught myself coding through Bootcamps starting from HTML, CSS to js.</p>
+                    my degree I taught myself coding through Bootcamps starting from HTML, CSS and js.</p>
                     what made me continue was the satisfaction of building something from scratch and seeing it evolve was worth it all.<br />
                     <p></p>I continued my journey learning more frameworks and libraries wanting to learn more every day, also I'm interested in AI and how could it make life around us much easier in everything which made me start learning python.<br />
                     I'm proud of myself for how far I achieved in my journey and excited about how many things waiting to explore and learn.</span>

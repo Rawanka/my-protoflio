@@ -18,7 +18,7 @@ const onSubmit = formData => {
                 <h3 className='absolute p-6 top-14 uppercase tracking-[20px] text-gray-500 text-2xl'>
             contact
             </h3>
-            <div className='flex flex-col space-y-12 relative
+            <div className='flex flex-col space-y-7 relative
             '>
                 <h4 className='text-4xl font-semibold text-center'> I got what you need {""}
                 <span className='decoration-slate-400/50 underline 

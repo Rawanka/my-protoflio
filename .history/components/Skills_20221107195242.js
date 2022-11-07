@@ -35,7 +35,7 @@ export default function Skills() {
      text-gray-500 text-sm'>
       Hover to see skills %
       </h3>
-      <div  className='grid grid-cols-3 gap-4 md:grid-cols-4'>  
+      <div  className='grid grid-cols-4 gap-4'>  
 
       {skills?.map(({skill,img}) => 
 

@@ -37,10 +37,10 @@ export default function Projects() {
                             />
                             </div> */}
                         <div className='px-0 md:px-10 max-w-6xl space-y-4'>
-                            <h4 className='text-3xl font-semibold'>
+                            <h4 className='text-2xl font-semibold'>
                                 <span className=' text-white '> {projeceName}</span>
                             </h4>
-                            <p className='flex text-md '>{brief}</p>
+                            <p className='flex text-sm '>{brief}</p>
                         </div>
                     </div>
                 ))}
