@@ -27,11 +27,11 @@
   
     .scrollbar::-webkit-scrollbar-track {
       border-radius: 100vh;
-      background: #242424;
+      background: bg-blue-700/10;
     }
   
     .scrollbar::-webkit-scrollbar-thumb {
-      background: #6a38e9;
+      background:bg-blue-700/10;
       border-radius: 100vh;
       border: 3px solid #6a38e9;
     }
