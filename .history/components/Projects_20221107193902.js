@@ -38,7 +38,7 @@ export default function Projects() {
                             </div> */}
                         <div className='space-y-10 px-0 md:px-10 max-w-6xl text-center'>
                             <h4 className='text-3xl font-semibold text-center'>
-                                <span className=' text-white '> {projeceName}</span>
+                                <span className=' text-[#6a38e9] '> {projeceName}</span>
                             </h4>
                             <p className='flex flex-row text-center p-5'>{brief}</p>
                         </div>
