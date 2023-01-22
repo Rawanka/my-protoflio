@@ -37,12 +37,12 @@ export default function Projects() {
                             </div> */}
                             
                         <div className='px-0 md:px-10 max-w-6xl space-y-4'>
-                            <h4 className='text-3xl font-semibold'>
+                            <h4 className='text-1xl font-semibold'>
                                 <span className=' text-white '> {projeceName}</span>
                             </h4>
                           
                         </div>                          
-                    <div className='w-full flex space-x-3 overflow-x-scroll scrollbar p-4 snap-x snap-mandatory text-md'>
+                    <div className='w-full flex space-x-3 overflow-x-scroll scrollbar p-8 snap-x snap-mandatory text-md'>
                                 {brief}</div>
                     </div>
                 ))}

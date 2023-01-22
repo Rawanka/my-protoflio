@@ -42,7 +42,7 @@ export default function Projects() {
                             </h4>
                           
                         </div>                          
-                    <div className='w-full flex space-x-3 overflow-x-scroll scrollbar p-4 snap-x snap-mandatory text-md'>
+                    <div className='w-full flex space-x-3 overflow-x-scroll scrollbar p-8 snap-x snap-mandatory text-md'>
                                 {brief}</div>
                     </div>
                 ))}
