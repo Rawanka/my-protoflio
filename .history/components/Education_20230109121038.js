@@ -6,7 +6,6 @@ import EducationCard from './EducationCard';
 export default function Education() {
     const educations = [
         {education:"The Complete 2022 Web Development Bootcamp",by:"by: Dr. Angela Yu"},
-        {education:"RPA bootcamp",by:"Coding dojo"},
         {education:"Associate degree in office management",by:"Taibah university"},
         {education:"Bechelor of science in Business Adminstration",by:"Taibah university"},
         ,

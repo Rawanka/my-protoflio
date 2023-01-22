@@ -6,7 +6,6 @@ import EducationCard from './EducationCard';
 export default function Education() {
     const educations = [
         {education:"The Complete 2022 Web Development Bootcamp",by:"by: Dr. Angela Yu"},
-        {education:"RPA bootcamp",by:"Coding dojo"},
         {education:"Associate degree in office management",by:"Taibah university"},
         {education:"Bechelor of science in Business Adminstration",by:"Taibah university"},
         ,
@@ -23,14 +22,15 @@ export default function Education() {
     relative text-center md:text-left 
     md:flex-row max-w-7xl px-10 justify-evenly
     mx-auto items-center'>
-
-            <h3 className=' absolute top-24 uppercase
+<div className='flex '> 
+        <h3 className=' absolute top-24 uppercase
          tracking-[20px] text-gray-500
          text-2xl'>
             Education
             </h3>
-            <p className='absolute top-36 uppercase tracking-[4px]
-     text-gray-500 text-sm'>scroll left to see more</p>
+            <p>scroll left to see more</p>
+</div>
+        
 
             <div className='w-full flex space-x-5 
              overflow-x-scroll scrollbar p-10 snap-x snap-mandatory

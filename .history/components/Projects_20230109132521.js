@@ -5,12 +5,9 @@ import Image from 'next/image'
 export default function Projects() {
     const projects = [
         { n: 1, projeceName: "building Microsoft system", brief: "building a whole system for a private school with Microsoft and set up teams for the class " },
-        { n: 2, projeceName: "travel app", brief: "building this portfolio by next js, tailwindcss, and other libraries " },
-        { n: 3, projeceName: "game project", brief: "building this portfolio by next js, tailwindcss, and other libraries " },
-        { n: 4, projeceName: "Airbnb clone", brief: "building Airbnb clone for learning purpose" },
-        { n: 5, projeceName: "Admin Dashboard App", brief: "made an admin dashboard for future project to build a whole system" },
-        { n: 6, projeceName: "build portfolio", brief: "building this portfolio by next js, tailwindcss, and other libraries " },
-
+        { n: 2, projeceName: "Airbnb clone", brief: "building Airbnb clone for learning purpose" },
+        { n: 3, projeceName: "Admin Dashboard App", brief: "made an admin dashboard for future project to build a whole system" },
+        { n: 4, projeceName: "build portfolio", brief: "building this portfolio by next js, tailwindcss, and other libraries " }
 
     ]
 
@@ -18,7 +15,7 @@ export default function Projects() {
     return (
         <div className='h-screen flex flex-row relative text-center md:flex-row lg:text-left justify-evenly mx-auto items-center p-10'>
             <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>Projects</h3>
-            <h3 className='absolute top-36 uppercase tracking-[5px] text-gray-500 text-sm items-center'>
+            <h3 className='absolute uppercase tracking-[4px] text-gray-500 text-sm'>
                                 scroll left to see more</h3>
 
             <div className=' relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar'>
@@ -42,7 +39,7 @@ export default function Projects() {
                             </h4>
                           
                         </div>                          
-                    <div className='w-full flex space-x-3 overflow-x-scroll scrollbar p-8 snap-x snap-mandatory text-md'>
+                    <div className='w-full flex space-x-5 overflow-x-scroll scrollbar p-10 snap-x snap-mandatory text-md'>
                                 {brief}</div>
                     </div>
                 ))}

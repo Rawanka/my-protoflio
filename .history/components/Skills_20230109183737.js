@@ -16,7 +16,7 @@ export default function Skills() {
   {skill:"50",img:"https://www.nicepng.com/png/detail/868-8686277_mongo-db-badge-sticker-mongodb.png"},
   {skill:"70",img:"https://www.nicepng.com/png/detail/38-381647_png-git-icon.png"},
   {skill:"80",img:"https://pngimg.com/uploads/github/github_PNG58.png"},
-  {skill:"AA",img:"https://ae.automationanywhere.com/images/logo-aa-new.svg"},
+  {skill:"AA",img:"https://pngimg.com/uploads/github/github_PNG58.png"},
   {skill:"AA",img:"https://pngimg.com/uploads/github/github_PNG58.png"},
 
 
@@ -39,7 +39,7 @@ export default function Skills() {
      text-gray-500 text-sm'>
       Hover to see skills %
       </h3>
-      <div className='grid grid-cols-4 gap-3 md:grid-flow-cols-4 lg:grid-cols-5 '>  
+      <div className='grid grid-cols-4 gap-3 sm:grid-cols-4 md:grid-flow-cols-4 lg:grid-cols-5 lg:px-20'>  
 
       {skills?.map(({skill,img}) => 
 

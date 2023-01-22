@@ -6,10 +6,9 @@ export default function Projects() {
     const projects = [
         { n: 1, projeceName: "building Microsoft system", brief: "building a whole system for a private school with Microsoft and set up teams for the class " },
         { n: 2, projeceName: "travel app", brief: "building this portfolio by next js, tailwindcss, and other libraries " },
-        { n: 3, projeceName: "game project", brief: "building this portfolio by next js, tailwindcss, and other libraries " },
-        { n: 4, projeceName: "Airbnb clone", brief: "building Airbnb clone for learning purpose" },
-        { n: 5, projeceName: "Admin Dashboard App", brief: "made an admin dashboard for future project to build a whole system" },
-        { n: 6, projeceName: "build portfolio", brief: "building this portfolio by next js, tailwindcss, and other libraries " },
+        { n: 3, projeceName: "Airbnb clone", brief: "building Airbnb clone for learning purpose" },
+        { n: 4, projeceName: "Admin Dashboard App", brief: "made an admin dashboard for future project to build a whole system" },
+        { n: 5, projeceName: "build portfolio", brief: "building this portfolio by next js, tailwindcss, and other libraries " },
 
 
     ]
