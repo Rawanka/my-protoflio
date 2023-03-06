@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 export default function Skills() {
 
   const skills = [
-  {id:"12",skill:"50",img:"https://logos-world.net/wp-content/uploads/2021/10/Python-Emblem-700x394.png"},
+  {id:"12",skill:"50",img:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fdevblogs.microsoft.com%2Fpython%2F&psig=AOvVaw0wZ5gMpUczzHFQbxrIgZfr&ust=1678198127947000&source=images&cd=vfe&ved=0CA0QjRxqFwoTCPjAqq69x_0CFQAAAAAdAAAAABAH"},
   {id:"1",skill:"100",img:"https://www.kindpng.com/picc/m/485-4850314_transparent-background-html-logo-hd-png-download.png"},
   {id:"2",skill:"90",img:"https://www.kindpng.com/picc/m/464-4640184_css3-png-download-css-icon-transparent-png.png"},
   {id:"3",skill:"70",img:"https://www.kindpng.com/picc/m/67-678384_transparent-javascript-icon-png-png-download.png"},
