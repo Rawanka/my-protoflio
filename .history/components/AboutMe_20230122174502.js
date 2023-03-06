@@ -9,7 +9,7 @@ export default function AboutMe() {
                 <h3 className=' absolute top-24 uppercase tracking-[18px]
      text-gray-500 text-2xl'>About
                 </h3>
-                <span className='text-center text-xs space-y-4 md:text-center md:space-y-6 md:px-8 md:text-lg'>
+                <span className='text-center text-xs space-y-4 md:text-left md:space-y-6 md:px-8 md:text-lg'>
                     <p> 
                     I'm Rawan, a recent graduate from Taibah University with a Bachelor's degree in Business.<br/> Despite my major, I've always had a strong interest in technology and taught myself to code through online bootcamps, starting with HTML, CSS, and Javascript.
                     What kept me motivated was the satisfaction of building something from scratch and watching it evolve. <br/>
