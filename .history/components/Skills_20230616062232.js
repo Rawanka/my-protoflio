@@ -74,7 +74,7 @@ xl:space-y-0 mx-auto items-center '>
      <div className='absolute top-48  '>
      <div className='flex items-center justify-center gap-3 '>
        <button
-         className={`option-btn ${selectedOption === 'option1' ? 'active' : ''} rounded-full border border-[#6a38e9] text-white lg:px-4 lg:py-4 px-2 py-2 `}
+         className={`option-btn ${selectedOption === 'option1' ? 'active' : ''} rounded-full border border-[#6a38e9] text-black lg:px-4 lg:py-4 px-2 py-2 `}
          onClick={() => handleOptionClick('option1')}
        >
          Web development

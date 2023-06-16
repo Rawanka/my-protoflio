@@ -72,21 +72,21 @@ xl:space-y-0 mx-auto items-center '>
      <h2 className='absolute top-36 uppercase tracking-[4px]
     text-gray-500 text-sm'>Hover over to see %</h2>
      <div className='absolute top-48  '>
-     <div className='flex items-center justify-center gap-3 '>
+     <div className='flex items-center justify-center  gap-3 text-gray-400  '>
        <button
-         className={`option-btn ${selectedOption === 'option1' ? 'active' : ''} rounded-full border border-[#6a38e9] text-white lg:px-4 lg:py-4 px-2 py-2 `}
+         className={`option-btn ${selectedOption === 'option1' ? 'active' : ''} rounded-full border border-[#6a38e9] text-white lg:px-4 lg:py-4 px-2 py-2 sm:text-sm`}
          onClick={() => handleOptionClick('option1')}
        >
          Web development
        </button>
        <button
-         className={`option-btn ${selectedOption === 'option2' ? 'active' : ''} rounded-full border border-[#6a38e9] text-white lg:px-4 lg:py-4 px-5 py-6 `}
+         className={`option-btn ${selectedOption === 'option2' ? 'active' : ''} rounded-full border border-[#6a38e9] text-white lg:px-4 lg:py-4 px-5 py-6 sm:text-sm `}
          onClick={() => handleOptionClick('option2')}
        >
          RPA
        </button>
        <button
-         className={`option-btn ${selectedOption === 'option3' ? 'active' : ''} rounded-full border border-[#6a38e9] text-white lg:px-4 lg:py-4 px-2 py-2`}
+         className={`option-btn ${selectedOption === 'option3' ? 'active' : ''} rounded-full border border-[#6a38e9] text-white lg:px-4 lg:py-4 px-2 py-2 sm:text-sm`}
          onClick={() => handleOptionClick('option3')}
        >
          Game development

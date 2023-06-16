@@ -72,12 +72,12 @@ xl:space-y-0 mx-auto items-center '>
      <h2 className='absolute top-36 uppercase tracking-[4px]
     text-gray-500 text-sm'>Hover over to see %</h2>
      <div className='absolute top-48  '>
-     <div className='flex items-center justify-center gap-3 '>
+     <div className='flex items-center justify-center  gap-3 text-gray-400 text-xl '>
        <button
-         className={`option-btn ${selectedOption === 'option1' ? 'active' : ''} rounded-full border border-[#6a38e9] text-white lg:px-4 lg:py-4 px-2 py-2 `}
+         className={`option-btn ${selectedOption === 'option1' ? 'active' : ''} rounded-full border border-[#6a38e9] text-white lg:px-4 lg:py-4 px-2 py-2`}
          onClick={() => handleOptionClick('option1')}
        >
-         Web development
+         Web develop
        </button>
        <button
          className={`option-btn ${selectedOption === 'option2' ? 'active' : ''} rounded-full border border-[#6a38e9] text-white lg:px-4 lg:py-4 px-5 py-6 `}
@@ -89,18 +89,18 @@ xl:space-y-0 mx-auto items-center '>
          className={`option-btn ${selectedOption === 'option3' ? 'active' : ''} rounded-full border border-[#6a38e9] text-white lg:px-4 lg:py-4 px-2 py-2`}
          onClick={() => handleOptionClick('option3')}
        >
-         Game development
+         Game develop
        </button>
        <button
          className={`option-btn ${selectedOption === 'option4' ? 'active' : ''} rounded-full border border-[#6a38e9] text-white lg:px-4 lg:py-4 px-2 py-2`}
          onClick={() => handleOptionClick('option4')}
        >
-         APP development
+         APP develop
        </button>
      </div>
 
 
-     <div className='grid grid-cols-4 gap-3 md:grid-cols-4 lg:grid-cols-5 py-9'>
+     <div className='grid grid-cols-4 gap-3 md:grid-cols-4 lg:grid-cols-5 py-9 px-2'>
   {selectedOption && info[selectedOption]?.map(({ id, skill, img }) => (
     <SkillCard key={id} skill={skill} img={img} />
   ))}
