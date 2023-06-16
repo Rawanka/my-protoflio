@@ -67,12 +67,12 @@ const handleOptionClick = (option) => {
 <div  className='flex flex-col relative h-screen 
 text-center md:text-left md:flex-row xl:flex-row
 max-w-[2000px] xl:px-10 min-h-screen justify-center
-xl:space-y-0 mx-auto items-center px-4 '>
+xl:space-y-0 mx-auto items-center px-4'>
 <h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>Skills</h3>
      <h2 className='absolute top-36 uppercase tracking-[4px]
     text-gray-500 text-sm'>Hover over to see %</h2>
-     <div className='absolute top-48 px-6 '>
-     <div className='flex items-center justify-center gap-3 '>
+     <div className='absolute top-48  '>
+     <div className='flex items-center justify-center gap-3 px-3 bg-white '>
        <button
          className={`option-btn ${selectedOption === 'option1' ? 'active' : ''} rounded-full border border-[#6a38e9] lg:text-lg md:text-base text-white lg:px-4 lg:py-4 px-2 py-2 sm:text-xs   `}
          onClick={() => handleOptionClick('option1')}
