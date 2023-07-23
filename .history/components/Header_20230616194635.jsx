@@ -4,13 +4,10 @@ import { motion } from 'framer-motion';
 import index from '../pages/index.js'
 import Link from 'next/link.js';
 import LanguageSwitcher from './LanguageSwitcher';
-import { useTranslation } from 'react-i18next';
-
-
+const { t } = useTranslation();
 
 
 export default function Header() {
-  const { t } = useTranslation();
   return (
     <header className='sticky top-0 p-5 flex items-start
      justify-between max-w-7xl mx-auto z-20 xl:items-center
@@ -65,22 +62,22 @@ export default function Header() {
 
         <Link href='#aboutme'>
           <button className='introButton'>
-          {t('about me')}</button>
+            About</button>
         </Link>
 
         <Link href='#education'>
           <button className='introButton'>
-            {t('Education')}</button>
+            Education</button>
         </Link>
         
         <Link href='#skills'>
           <button className='introButton'>
-          {t('Skills')}</button>
+            Skills</button>
         </Link>
 
         <Link href='#projects'>
           <button className='introButton'>
-            {t('Projects')}</button>
+            Projects</button>
         </Link>
 
 

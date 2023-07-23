@@ -31,6 +31,7 @@ export default function LanguageSwitcher() {
       >
         <option className={optionHoverStyle} value="en" style={{ background: '#323232' }}>English</option>
         <option className="bg-[#0000] text-white cursor-pointer" value="ar" style={{ background: '#323232' }}>Arabic</option>
+
         <option className="bg-[#0000] text-white cursor-pointer " value="zh" style={{ background: '#323232' }}>Chinese</option>
         <option className="bg-[#0000] text-white cursor-pointer" value="fr" style={{ background: '#323232' }}>French</option>
 

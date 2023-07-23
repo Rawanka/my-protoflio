@@ -80,7 +80,7 @@ export default function Header() {
 
         <Link href='#projects'>
           <button className='introButton'>
-            {t('Projects')}</button>
+            Projects</button>
         </Link>
 
 

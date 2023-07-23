@@ -75,12 +75,12 @@ export default function Header() {
         
         <Link href='#skills'>
           <button className='introButton'>
-          {t('Skills')}</button>
+          {t('Skills')}Skills</button>
         </Link>
 
         <Link href='#projects'>
           <button className='introButton'>
-            {t('Projects')}</button>
+            Projects</button>
         </Link>
 
 
