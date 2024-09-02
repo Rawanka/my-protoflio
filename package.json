@@ -22,6 +22,7 @@
     "next": "12.3.1",
     "next-i18next": "^13.3.0",
     "next-sanity": "^1.0.8",
+    "node": "^22.7.0",
     "pubnub": "^7.2.3",
     "pubnub-react": "^3.0.2",
     "react": "18.2.0",
