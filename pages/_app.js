@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 import { appWithTranslation } from 'next-i18next';
 import '../components/i18n.js';
-import i18n from '../components/i18n';
+import i18n from '../components/i18n.js';
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />
