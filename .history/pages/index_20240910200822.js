@@ -9,32 +9,28 @@ import Skills from '../components/Skills'
 import AboutMe from '../components/AboutMe'
 import Projects from '../components/Projects'
 import Contact from '../components/Contact'
-import Chat from '../components/Chat'
-import Loader from '../components/Loader'
 import Select from '../components/i18n'
 import LanguageSwitcher from '../components/LanguageSwitcher'
 import React, { useState, useEffect } from 'react';
-import PubNub from 'pubnub';
-import { PubNubProvider, usePubNub } from 'pubnub-react';
 
-const pubnub = new PubNub({
-  publishKey: 'pub-c-0849b72c-151e-4068-a10e-f90a2dc727a0',
-  subscribeKey: 'sub-c-d209e7ae-98f7-4ee6-9b18-1dc2e15cf745',
-  uuid: 'myUniqueUUID'
-});
 
+// import { Chat, MessageList, MessageInput } from "@pubnub/react-chat-components";
+
+
+const currentChannel = "Default";
+const theme = "light";
 
 
 export default function Home() {
 
   return (
+
     <div className='bg-[rgba(36,36,36)]
      text-white h-screen snap-y snap-mandatory 
      overflow-y-scroll overflow-x-hidden z-0
       scrollbar scrollbar-track-transparent'>
 
       <title>Rawan portfolio</title>
-      <PubNubProvider client={pubnub}>
 
       <Header />
 
@@ -64,13 +60,7 @@ export default function Home() {
       <Footer/>
       
 
-      <Chat />
-    </PubNubProvider>
-
-
-    </div>
-
-  );
+  </div>  
+     );
 }
-
 

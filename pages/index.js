@@ -12,16 +12,10 @@ import Contact from '../components/Contact'
 import Select from '../components/i18n'
 import LanguageSwitcher from '../components/LanguageSwitcher'
 import React, { useState, useEffect } from 'react';
-import PubNub from 'pubnub';
-import { PubNubProvider, usePubNub } from 'pubnub-react';
+
+
 // import { Chat, MessageList, MessageInput } from "@pubnub/react-chat-components";
 
-
-const pubnub = new PubNub({
-  publishKey: 'pub-c-0849b72c-151e-4068-a10e-f90a2dc727a0',
-  subscribeKey: 'sub-c-d209e7ae-98f7-4ee6-9b18-1dc2e15cf745',
-  uuid: 'myUniqueUUID'
-});
 
 const currentChannel = "Default";
 const theme = "light";

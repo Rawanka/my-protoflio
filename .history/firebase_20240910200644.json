@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": ".next",  
+    "public": ".next",   // This is the build output directory
     "rewrites": [
       {
         "source": "**",
