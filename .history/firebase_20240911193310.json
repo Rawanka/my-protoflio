@@ -9,11 +9,9 @@
     "rewrites": [
       {
         "source": "**",
+        "destination": "/index.html",
         "function": "nextjsServer"
       }
     ]
-  },
-  "functions": {
-    "source": "functions"
   }
 }
