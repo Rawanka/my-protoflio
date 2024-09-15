@@ -1,0 +1,20 @@
+{
+  "hosting": {
+    "public": "pages",
+    "site": "profile-52b9a-2c3cb",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "function": "nextjsServer"
+      }
+    ]
+  },
+  "functions": {
+    "source": "functions"
+  }
+}

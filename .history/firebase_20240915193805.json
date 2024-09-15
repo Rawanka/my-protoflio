@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "build", 
+    "public": "build", // This should match your `distDir` in `next.config.js`
     "ignore": [
       "firebase.json",
       "**/.*",
